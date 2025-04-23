@@ -1,0 +1,1 @@
+# enterprise-frontend-nextjs-boilerplate
