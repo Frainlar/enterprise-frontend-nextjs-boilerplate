@@ -2266,5 +2266,39 @@
       "nx.json",
       "nx/target-defaults"
     ]
+  },
+  "libs": {
+    "root": [
+      "libs/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "libs/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "libs/project.json",
+      "nx/core/project-json"
+    ]
   }
 }
