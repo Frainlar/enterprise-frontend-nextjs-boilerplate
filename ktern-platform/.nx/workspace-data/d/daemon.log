@@ -1,0 +1,56 @@
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:16:22.001Z - Started listening on: /tmp/514f8f68880fa4cdef5e/d.sock
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:16:22.004Z - [WATCHER]: Subscribed to changes within: /workspaces/enterprise-frontend-nextjs-boilerplate/ktern-platform (native)
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:16:22.007Z - Established a connection. Number of open connections: 1
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:16:22.010Z - Closed a connection. Number of open connections: 0
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:16:22.011Z - Established a connection. Number of open connections: 1
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:16:22.013Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:16:22.013Z - Done responding to the client Shutdown initiated
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:16:22.013Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:16:22.014Z - Closed a connection. Number of open connections: 0
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:16:22.014Z - [WATCHER]: Stopping the watcher for /workspaces/enterprise-frontend-nextjs-boilerplate/ktern-platform (sources)
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:16:22.016Z - [WATCHER]: Stopping the watcher for /workspaces/enterprise-frontend-nextjs-boilerplate/ktern-platform (outputs)
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:16:22.017Z - Server stopped because: "Request to shutdown"
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:24.230Z - Started listening on: /tmp/514f8f68880fa4cdef5e/d.sock
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:24.233Z - [WATCHER]: Subscribed to changes within: /workspaces/enterprise-frontend-nextjs-boilerplate/ktern-platform (native)
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:24.238Z - Established a connection. Number of open connections: 1
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:24.239Z - Established a connection. Number of open connections: 2
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:24.244Z - Closed a connection. Number of open connections: 1
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:24.247Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:24.248Z - Done responding to the client Shutdown initiated
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:24.248Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:24.249Z - Closed a connection. Number of open connections: 0
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:24.364Z - Time taken for 'loadSpecifiedNxPlugins' 3.8522030000000314ms
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:24.869Z - Time taken for 'Load Nx Plugin: /tmp/tmp-88035-Ry8IFK7rF98b/node_modules/.pnpm/nx@20.8.0/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 530.2691830000001ms
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:24.921Z - Time taken for 'Load Nx Plugin: /tmp/tmp-88035-Ry8IFK7rF98b/node_modules/.pnpm/nx@20.8.0/node_modules/nx/src/plugins/package-json' 583.9577859999999ms
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:24.965Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:24.965Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:24.965Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:24.991Z - Time taken for 'loadDefaultNxPlugins' 628.67429ms
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:25.540Z - Time taken for 'build-project-configs' 524.822005ms
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:25.681Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:25.684Z - Time taken for 'total execution time for createProjectGraph()' 129.01805600000012ms
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:28.394Z - [WATCHER]: Stopping the watcher for /workspaces/enterprise-frontend-nextjs-boilerplate/ktern-platform (sources)
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:28.394Z - [WATCHER]: Stopping the watcher for /workspaces/enterprise-frontend-nextjs-boilerplate/ktern-platform (outputs)
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:18:28.395Z - Server stopped because: "Request to shutdown"
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:21.367Z - Started listening on: /tmp/514f8f68880fa4cdef5e/d.sock
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:21.370Z - [WATCHER]: Subscribed to changes within: /workspaces/enterprise-frontend-nextjs-boilerplate/ktern-platform (native)
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:21.374Z - Established a connection. Number of open connections: 1
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:21.376Z - Established a connection. Number of open connections: 2
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:21.380Z - Closed a connection. Number of open connections: 1
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:21.383Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:21.384Z - Done responding to the client Shutdown initiated
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:21.384Z - Handled FORCE_SHUTDOWN. Handling time: 2. Response time: 1.
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:21.384Z - Closed a connection. Number of open connections: 0
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:21.494Z - Time taken for 'loadSpecifiedNxPlugins' 3.754509999999982ms
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:22.220Z - Time taken for 'Load Nx Plugin: /tmp/tmp-93589-YPQgqhWVFk87/node_modules/.pnpm/nx@20.8.0/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 746.0631300000001ms
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:22.237Z - Time taken for 'Load Nx Plugin: /tmp/tmp-93589-YPQgqhWVFk87/node_modules/.pnpm/nx@20.8.0/node_modules/nx/src/plugins/package-json' 764.947654ms
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:22.248Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:22.248Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:22.248Z - [REQUEST]: 
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:22.269Z - Time taken for 'loadDefaultNxPlugins' 776.053912ms
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:22.774Z - Time taken for 'build-project-configs' 484.87835900000005ms
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:22.927Z - [SYNC]: collect registered sync generators
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:22.928Z - Time taken for 'total execution time for createProjectGraph()' 156.08583399999998ms
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:25.457Z - [WATCHER]: Stopping the watcher for /workspaces/enterprise-frontend-nextjs-boilerplate/ktern-platform (sources)
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:25.458Z - [WATCHER]: Stopping the watcher for /workspaces/enterprise-frontend-nextjs-boilerplate/ktern-platform (outputs)
+[NX v20.8.0 Daemon Server] - 2025-04-23T20:26:25.459Z - Server stopped because: "Request to shutdown"

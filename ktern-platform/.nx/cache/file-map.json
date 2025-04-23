@@ -1,0 +1,797 @@
+{
+  "version": "6.0",
+  "nxVersion": "16.6.0",
+  "deps": {
+    "next": "13.4.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tslib": "^2.3.0",
+    "@babel/preset-react": "^7.14.5",
+    "@nrwl/nx-cloud": "19.1.0",
+    "@nx/cypress": "16.6.0",
+    "@nx/jest": "16.6.0",
+    "@nx/js": "16.6.0",
+    "@nx/next": "16.6.0",
+    "@nx/react": "16.6.0",
+    "@nx/web": "16.6.0",
+    "@nx/workspace": "16.6.0",
+    "@playwright/test": "^1.52.0",
+    "@testing-library/react": "14.0.0",
+    "@types/jest": "^29.4.0",
+    "@types/node": "18.14.2",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "babel-jest": "^29.4.1",
+    "cypress": "^12.16.0",
+    "eslint": "~8.15.0",
+    "eslint-config-next": "13.4.1",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-cypress": "^2.10.3",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "jest": "^29.4.1",
+    "jest-environment-jsdom": "^29.4.1",
+    "nx": "16.6.0",
+    "prettier": "^2.6.2",
+    "ts-jest": "29.1.5",
+    "ts-node": "10.9.1",
+    "typescript": "5.1.6"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "projectFileMap": {
+    "mines": [
+      {
+        "file": "apps/mines/.eslintrc.json",
+        "hash": "10524945777194183146"
+      },
+      {
+        "file": "apps/mines/app/api/hello/route.ts",
+        "hash": "495073956729887886"
+      },
+      {
+        "file": "apps/mines/app/global.css",
+        "hash": "10943017421299445298"
+      },
+      {
+        "file": "apps/mines/app/layout.tsx",
+        "hash": "12418824688559566925"
+      },
+      {
+        "file": "apps/mines/app/page.module.css",
+        "hash": "4786619528779355986"
+      },
+      {
+        "file": "apps/mines/app/page.tsx",
+        "hash": "969102618515239410"
+      },
+      {
+        "file": "apps/mines/index.d.ts",
+        "hash": "5498222895072842432"
+      },
+      {
+        "file": "apps/mines/jest.config.ts",
+        "hash": "6182753747965662904"
+      },
+      {
+        "file": "apps/mines/next-env.d.ts",
+        "hash": "5909181270615354023"
+      },
+      {
+        "file": "apps/mines/next.config.js",
+        "hash": "17252635002163063865",
+        "deps": [
+          "npm:@nx/next"
+        ]
+      },
+      {
+        "file": "apps/mines/project.json",
+        "hash": "12122594335742605665"
+      },
+      {
+        "file": "apps/mines/public/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "apps/mines/public/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": "apps/mines/tsconfig.json",
+        "hash": "15655227362717484734"
+      },
+      {
+        "file": "apps/mines/tsconfig.spec.json",
+        "hash": "6922413205408300107"
+      }
+    ],
+    "proj-e2e": [
+      {
+        "file": "apps/proj-e2e/.eslintrc.json",
+        "hash": "14060216369337943343"
+      },
+      {
+        "file": "apps/proj-e2e/cypress.config.ts",
+        "hash": "15414076024138857470",
+        "deps": [
+          "npm:cypress",
+          "npm:@nx/cypress"
+        ]
+      },
+      {
+        "file": "apps/proj-e2e/project.json",
+        "hash": "4725074923881960664"
+      },
+      {
+        "file": "apps/proj-e2e/src/e2e/app.cy.ts",
+        "hash": "11983668033156736937"
+      },
+      {
+        "file": "apps/proj-e2e/src/fixtures/example.json",
+        "hash": "11614668686582597233"
+      },
+      {
+        "file": "apps/proj-e2e/src/support/app.po.ts",
+        "hash": "11157016311132186162"
+      },
+      {
+        "file": "apps/proj-e2e/src/support/commands.ts",
+        "hash": "7314691991044890572"
+      },
+      {
+        "file": "apps/proj-e2e/src/support/e2e.ts",
+        "hash": "3666078656922506009"
+      },
+      {
+        "file": "apps/proj-e2e/tsconfig.json",
+        "hash": "1788248097864730386"
+      }
+    ],
+    "proc": [
+      {
+        "file": "apps/proc/.eslintrc.json",
+        "hash": "864666790942356888"
+      },
+      {
+        "file": "apps/proc/app/api/hello/route.ts",
+        "hash": "495073956729887886"
+      },
+      {
+        "file": "apps/proc/app/global.css",
+        "hash": "10943017421299445298"
+      },
+      {
+        "file": "apps/proc/app/layout.tsx",
+        "hash": "17284063314283034029"
+      },
+      {
+        "file": "apps/proc/app/page.module.css",
+        "hash": "4786619528779355986"
+      },
+      {
+        "file": "apps/proc/app/page.tsx",
+        "hash": "2301235468118498313"
+      },
+      {
+        "file": "apps/proc/index.d.ts",
+        "hash": "5498222895072842432"
+      },
+      {
+        "file": "apps/proc/jest.config.ts",
+        "hash": "7892030088685852077"
+      },
+      {
+        "file": "apps/proc/next-env.d.ts",
+        "hash": "5909181270615354023"
+      },
+      {
+        "file": "apps/proc/next.config.js",
+        "hash": "17252635002163063865",
+        "deps": [
+          "npm:@nx/next"
+        ]
+      },
+      {
+        "file": "apps/proc/project.json",
+        "hash": "7220562928195880704"
+      },
+      {
+        "file": "apps/proc/public/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "apps/proc/public/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": "apps/proc/tsconfig.json",
+        "hash": "9606639661087517529"
+      },
+      {
+        "file": "apps/proc/tsconfig.spec.json",
+        "hash": "6922413205408300107"
+      }
+    ],
+    "maps": [
+      {
+        "file": "apps/maps/.eslintrc.json",
+        "hash": "16496883655423348694"
+      },
+      {
+        "file": "apps/maps/app/api/hello/route.ts",
+        "hash": "495073956729887886"
+      },
+      {
+        "file": "apps/maps/app/global.css",
+        "hash": "10943017421299445298"
+      },
+      {
+        "file": "apps/maps/app/layout.tsx",
+        "hash": "11491447084361887025"
+      },
+      {
+        "file": "apps/maps/app/page.module.css",
+        "hash": "4786619528779355986"
+      },
+      {
+        "file": "apps/maps/app/page.tsx",
+        "hash": "10247742122825350562"
+      },
+      {
+        "file": "apps/maps/index.d.ts",
+        "hash": "5498222895072842432"
+      },
+      {
+        "file": "apps/maps/jest.config.ts",
+        "hash": "11997979724313296992"
+      },
+      {
+        "file": "apps/maps/next-env.d.ts",
+        "hash": "5909181270615354023"
+      },
+      {
+        "file": "apps/maps/next.config.js",
+        "hash": "17252635002163063865",
+        "deps": [
+          "npm:@nx/next"
+        ]
+      },
+      {
+        "file": "apps/maps/project.json",
+        "hash": "15299070375977424002"
+      },
+      {
+        "file": "apps/maps/public/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "apps/maps/public/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": "apps/maps/tsconfig.json",
+        "hash": "14375399186081745119"
+      },
+      {
+        "file": "apps/maps/tsconfig.spec.json",
+        "hash": "6922413205408300107"
+      }
+    ],
+    "maps-e2e": [
+      {
+        "file": "apps/maps-e2e/.eslintrc.json",
+        "hash": "14060216369337943343"
+      },
+      {
+        "file": "apps/maps-e2e/cypress.config.ts",
+        "hash": "15414076024138857470",
+        "deps": [
+          "npm:cypress",
+          "npm:@nx/cypress"
+        ]
+      },
+      {
+        "file": "apps/maps-e2e/project.json",
+        "hash": "8095037102592377094"
+      },
+      {
+        "file": "apps/maps-e2e/src/e2e/app.cy.ts",
+        "hash": "14374400591863567368"
+      },
+      {
+        "file": "apps/maps-e2e/src/fixtures/example.json",
+        "hash": "11614668686582597233"
+      },
+      {
+        "file": "apps/maps-e2e/src/support/app.po.ts",
+        "hash": "11157016311132186162"
+      },
+      {
+        "file": "apps/maps-e2e/src/support/commands.ts",
+        "hash": "7314691991044890572"
+      },
+      {
+        "file": "apps/maps-e2e/src/support/e2e.ts",
+        "hash": "3666078656922506009"
+      },
+      {
+        "file": "apps/maps-e2e/tsconfig.json",
+        "hash": "1788248097864730386"
+      }
+    ],
+    "code": [
+      {
+        "file": "apps/code/.eslintrc.json",
+        "hash": "8859114459018761522"
+      },
+      {
+        "file": "apps/code/app/api/hello/route.ts",
+        "hash": "495073956729887886"
+      },
+      {
+        "file": "apps/code/app/global.css",
+        "hash": "10943017421299445298"
+      },
+      {
+        "file": "apps/code/app/layout.tsx",
+        "hash": "10399708165705968419"
+      },
+      {
+        "file": "apps/code/app/page.module.css",
+        "hash": "4786619528779355986"
+      },
+      {
+        "file": "apps/code/app/page.tsx",
+        "hash": "2011072496317938936"
+      },
+      {
+        "file": "apps/code/index.d.ts",
+        "hash": "5498222895072842432"
+      },
+      {
+        "file": "apps/code/jest.config.ts",
+        "hash": "17064268999899511319"
+      },
+      {
+        "file": "apps/code/next-env.d.ts",
+        "hash": "5909181270615354023"
+      },
+      {
+        "file": "apps/code/next.config.js",
+        "hash": "17252635002163063865",
+        "deps": [
+          "npm:@nx/next"
+        ]
+      },
+      {
+        "file": "apps/code/project.json",
+        "hash": "1703824419239043728"
+      },
+      {
+        "file": "apps/code/public/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "apps/code/public/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": "apps/code/tsconfig.json",
+        "hash": "7800172013760996099"
+      },
+      {
+        "file": "apps/code/tsconfig.spec.json",
+        "hash": "6922413205408300107"
+      }
+    ],
+    "labs-e2e": [
+      {
+        "file": "apps/labs-e2e/.eslintrc.json",
+        "hash": "14060216369337943343"
+      },
+      {
+        "file": "apps/labs-e2e/cypress.config.ts",
+        "hash": "15414076024138857470",
+        "deps": [
+          "npm:cypress",
+          "npm:@nx/cypress"
+        ]
+      },
+      {
+        "file": "apps/labs-e2e/project.json",
+        "hash": "6664146582550147277"
+      },
+      {
+        "file": "apps/labs-e2e/src/e2e/app.cy.ts",
+        "hash": "15542359044293580655"
+      },
+      {
+        "file": "apps/labs-e2e/src/fixtures/example.json",
+        "hash": "11614668686582597233"
+      },
+      {
+        "file": "apps/labs-e2e/src/support/app.po.ts",
+        "hash": "11157016311132186162"
+      },
+      {
+        "file": "apps/labs-e2e/src/support/commands.ts",
+        "hash": "7314691991044890572"
+      },
+      {
+        "file": "apps/labs-e2e/src/support/e2e.ts",
+        "hash": "3666078656922506009"
+      },
+      {
+        "file": "apps/labs-e2e/tsconfig.json",
+        "hash": "1788248097864730386"
+      }
+    ],
+    "proj": [
+      {
+        "file": "apps/proj/.eslintrc.json",
+        "hash": "13319667556184326083"
+      },
+      {
+        "file": "apps/proj/app/api/hello/route.ts",
+        "hash": "495073956729887886"
+      },
+      {
+        "file": "apps/proj/app/global.css",
+        "hash": "10943017421299445298"
+      },
+      {
+        "file": "apps/proj/app/layout.tsx",
+        "hash": "5557677771231743698"
+      },
+      {
+        "file": "apps/proj/app/page.module.css",
+        "hash": "4786619528779355986"
+      },
+      {
+        "file": "apps/proj/app/page.tsx",
+        "hash": "16709617773650836102"
+      },
+      {
+        "file": "apps/proj/index.d.ts",
+        "hash": "5498222895072842432"
+      },
+      {
+        "file": "apps/proj/jest.config.ts",
+        "hash": "15432892787685158054"
+      },
+      {
+        "file": "apps/proj/next-env.d.ts",
+        "hash": "5909181270615354023"
+      },
+      {
+        "file": "apps/proj/next.config.js",
+        "hash": "17252635002163063865",
+        "deps": [
+          "npm:@nx/next"
+        ]
+      },
+      {
+        "file": "apps/proj/project.json",
+        "hash": "10869986097266344175"
+      },
+      {
+        "file": "apps/proj/public/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "apps/proj/public/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": "apps/proj/tsconfig.json",
+        "hash": "1147145495614199997"
+      },
+      {
+        "file": "apps/proj/tsconfig.spec.json",
+        "hash": "6922413205408300107"
+      }
+    ],
+    "shell-e2e": [
+      {
+        "file": "apps/shell-e2e/.eslintrc.json",
+        "hash": "14060216369337943343"
+      },
+      {
+        "file": "apps/shell-e2e/cypress.config.ts",
+        "hash": "15414076024138857470",
+        "deps": [
+          "npm:cypress",
+          "npm:@nx/cypress"
+        ]
+      },
+      {
+        "file": "apps/shell-e2e/project.json",
+        "hash": "12652105960447464263"
+      },
+      {
+        "file": "apps/shell-e2e/src/e2e/app.cy.ts",
+        "hash": "711891351392397771"
+      },
+      {
+        "file": "apps/shell-e2e/src/fixtures/example.json",
+        "hash": "11614668686582597233"
+      },
+      {
+        "file": "apps/shell-e2e/src/support/app.po.ts",
+        "hash": "11157016311132186162"
+      },
+      {
+        "file": "apps/shell-e2e/src/support/commands.ts",
+        "hash": "7314691991044890572"
+      },
+      {
+        "file": "apps/shell-e2e/src/support/e2e.ts",
+        "hash": "3666078656922506009"
+      },
+      {
+        "file": "apps/shell-e2e/tsconfig.json",
+        "hash": "1788248097864730386"
+      }
+    ],
+    "labs": [
+      {
+        "file": "apps/labs/.eslintrc.json",
+        "hash": "11110563643334033983"
+      },
+      {
+        "file": "apps/labs/app/api/hello/route.ts",
+        "hash": "495073956729887886"
+      },
+      {
+        "file": "apps/labs/app/global.css",
+        "hash": "10943017421299445298"
+      },
+      {
+        "file": "apps/labs/app/layout.tsx",
+        "hash": "2079876201580086054"
+      },
+      {
+        "file": "apps/labs/app/page.module.css",
+        "hash": "4786619528779355986"
+      },
+      {
+        "file": "apps/labs/app/page.tsx",
+        "hash": "1626410599257487325"
+      },
+      {
+        "file": "apps/labs/index.d.ts",
+        "hash": "5498222895072842432"
+      },
+      {
+        "file": "apps/labs/jest.config.ts",
+        "hash": "16635086800288493893"
+      },
+      {
+        "file": "apps/labs/next-env.d.ts",
+        "hash": "5909181270615354023"
+      },
+      {
+        "file": "apps/labs/next.config.js",
+        "hash": "17252635002163063865",
+        "deps": [
+          "npm:@nx/next"
+        ]
+      },
+      {
+        "file": "apps/labs/project.json",
+        "hash": "7039397626063211841"
+      },
+      {
+        "file": "apps/labs/public/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "apps/labs/public/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": "apps/labs/tsconfig.json",
+        "hash": "16334756903306972644"
+      },
+      {
+        "file": "apps/labs/tsconfig.spec.json",
+        "hash": "6922413205408300107"
+      }
+    ],
+    "mines-e2e": [
+      {
+        "file": "apps/mines-e2e/.eslintrc.json",
+        "hash": "14060216369337943343"
+      },
+      {
+        "file": "apps/mines-e2e/cypress.config.ts",
+        "hash": "15414076024138857470",
+        "deps": [
+          "npm:cypress",
+          "npm:@nx/cypress"
+        ]
+      },
+      {
+        "file": "apps/mines-e2e/project.json",
+        "hash": "850161544500099458"
+      },
+      {
+        "file": "apps/mines-e2e/src/e2e/app.cy.ts",
+        "hash": "7351449951934229441"
+      },
+      {
+        "file": "apps/mines-e2e/src/fixtures/example.json",
+        "hash": "11614668686582597233"
+      },
+      {
+        "file": "apps/mines-e2e/src/support/app.po.ts",
+        "hash": "11157016311132186162"
+      },
+      {
+        "file": "apps/mines-e2e/src/support/commands.ts",
+        "hash": "7314691991044890572"
+      },
+      {
+        "file": "apps/mines-e2e/src/support/e2e.ts",
+        "hash": "3666078656922506009"
+      },
+      {
+        "file": "apps/mines-e2e/tsconfig.json",
+        "hash": "1788248097864730386"
+      }
+    ],
+    "shell": [
+      {
+        "file": "apps/shell/.eslintrc.json",
+        "hash": "6200463626374517862"
+      },
+      {
+        "file": "apps/shell/app/api/hello/route.ts",
+        "hash": "495073956729887886"
+      },
+      {
+        "file": "apps/shell/app/global.css",
+        "hash": "10943017421299445298"
+      },
+      {
+        "file": "apps/shell/app/layout.tsx",
+        "hash": "14614223201171638422"
+      },
+      {
+        "file": "apps/shell/app/page.module.css",
+        "hash": "4786619528779355986"
+      },
+      {
+        "file": "apps/shell/app/page.tsx",
+        "hash": "5028106526246508999"
+      },
+      {
+        "file": "apps/shell/index.d.ts",
+        "hash": "5498222895072842432"
+      },
+      {
+        "file": "apps/shell/jest.config.ts",
+        "hash": "7171256175760953666"
+      },
+      {
+        "file": "apps/shell/next-env.d.ts",
+        "hash": "5909181270615354023"
+      },
+      {
+        "file": "apps/shell/next.config.js",
+        "hash": "17252635002163063865",
+        "deps": [
+          "npm:@nx/next"
+        ]
+      },
+      {
+        "file": "apps/shell/project.json",
+        "hash": "2332554673807252395"
+      },
+      {
+        "file": "apps/shell/public/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "apps/shell/public/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": "apps/shell/tsconfig.json",
+        "hash": "16808392195792239250"
+      },
+      {
+        "file": "apps/shell/tsconfig.spec.json",
+        "hash": "6922413205408300107"
+      }
+    ],
+    "code-e2e": [
+      {
+        "file": "apps/code-e2e/.eslintrc.json",
+        "hash": "14060216369337943343"
+      },
+      {
+        "file": "apps/code-e2e/cypress.config.ts",
+        "hash": "15414076024138857470",
+        "deps": [
+          "npm:cypress",
+          "npm:@nx/cypress"
+        ]
+      },
+      {
+        "file": "apps/code-e2e/project.json",
+        "hash": "6626935117210584576"
+      },
+      {
+        "file": "apps/code-e2e/src/e2e/app.cy.ts",
+        "hash": "10206860952914884880"
+      },
+      {
+        "file": "apps/code-e2e/src/fixtures/example.json",
+        "hash": "11614668686582597233"
+      },
+      {
+        "file": "apps/code-e2e/src/support/app.po.ts",
+        "hash": "11157016311132186162"
+      },
+      {
+        "file": "apps/code-e2e/src/support/commands.ts",
+        "hash": "7314691991044890572"
+      },
+      {
+        "file": "apps/code-e2e/src/support/e2e.ts",
+        "hash": "3666078656922506009"
+      },
+      {
+        "file": "apps/code-e2e/tsconfig.json",
+        "hash": "1788248097864730386"
+      }
+    ],
+    "proc-e2e": [
+      {
+        "file": "apps/proc-e2e/.eslintrc.json",
+        "hash": "14060216369337943343"
+      },
+      {
+        "file": "apps/proc-e2e/cypress.config.ts",
+        "hash": "15414076024138857470",
+        "deps": [
+          "npm:cypress",
+          "npm:@nx/cypress"
+        ]
+      },
+      {
+        "file": "apps/proc-e2e/project.json",
+        "hash": "3857019962063773729"
+      },
+      {
+        "file": "apps/proc-e2e/src/e2e/app.cy.ts",
+        "hash": "123821769595843423"
+      },
+      {
+        "file": "apps/proc-e2e/src/fixtures/example.json",
+        "hash": "11614668686582597233"
+      },
+      {
+        "file": "apps/proc-e2e/src/support/app.po.ts",
+        "hash": "11157016311132186162"
+      },
+      {
+        "file": "apps/proc-e2e/src/support/commands.ts",
+        "hash": "7314691991044890572"
+      },
+      {
+        "file": "apps/proc-e2e/src/support/e2e.ts",
+        "hash": "3666078656922506009"
+      },
+      {
+        "file": "apps/proc-e2e/tsconfig.json",
+        "hash": "1788248097864730386"
+      }
+    ]
+  }
+}
